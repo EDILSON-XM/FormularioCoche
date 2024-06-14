@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formato.css">
+</head>
+
+<body>
+	<header>
+		<h1>COCHES.SKILL</h1>
+		<p>tu compañia de alquiler más barata</p>
+		
+		
+	</header>
+
+    <h1>Introduce los datos del Vehiculo</h1>
+
+    <form action="/FormularioCoches/registroCoche" method="post">
+
+        <div>
+            <label for="matricula">Matricula</label>
+            <input type="text" name="matricula" id="matricula">
+
+        </div>
+
+        <div>
+            <label for="marca">Marca</label>
+            <input type="text" name="marca" id="marca">
+
+        </div>
+
+        <div>
+            <label for="modelo">Modelo </label>
+            <input type="text" name="modelo" id="modelo">
+
+        </div>
+
+
+
+        <div>
+            <label for="potencia">Potencia(cv)</label>
+            <input type="number" name="potencia" id="potencia"  min="50" step="60"  max="500" >
+
+
+        </div>
+
+
+        <div>
+            <label for="tipo">Tipo</label>
+            <input type="radio" name="tipo" id="Gasolina" value="Gasolina">Gasolina
+            <input type="radio" name="tipo" id="gasoil" value="Gasoil"checked>Gasoil
+            <input type="radio" name="tipo" id="Electrico"value="Electrico">Electrico
+            <input type="submit" value="Enviar">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>

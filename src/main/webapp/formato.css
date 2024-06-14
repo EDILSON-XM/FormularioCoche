@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+div{
+	
+    background-color:blue  solid 2px  ;
+    padding: 20px;
+    margin: 10px;
+	
+}
+
+form{
+	background-color: blue  solid 2px  ;
+	margin: 10px ;
+	padding: 20px;
+	border: black solid 2px;
+	color: blue;
+}
+
+h1{
+	color: blue;
+}
+body{
+	background-color: rgb(255, 255, 255);
+	margin: 10px ;
+	padding: 10px;
+	
+}
+
+header{
+	background-color: rgb(0, 255, 64);
+	margin: 10px ;
+	padding: 10px;
+	
+	
+}
